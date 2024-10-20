@@ -1,0 +1,40 @@
+// {
+//     "compilerOptions": {
+//       "target": "ES2020",
+//       "useDefineForClassFields": true,
+//       "lib": ["ES2020", "DOM", "DOM.Iterable"],
+//       "module": "ESNext",
+//       "skipLibCheck": true,
+  
+//       /* Bundler mode */
+//       "moduleResolution": "bundler",
+//       "allowImportingTsExtensions": true,
+//       "isolatedModules": true,
+//       "moduleDetection": "force",
+//       "noEmit": true,
+//       "jsx": "react-jsx",
+  
+//       /* Linting */
+//       "strict": true,
+//       "noUnusedLocals": true,
+//       "noUnusedParameters": true,
+//       "noFallthroughCasesInSwitch": true
+//     },
+//     "include": ["src"]
+//   }
+  
+
+  {
+    "compilerOptions": {
+      "jsx": "react-jsx",       // Enable JSX for React
+      "target": "ES6",          // Set the ECMAScript target
+      "module": "ESNext",       // Use ES modules
+      "moduleResolution": "node",
+      "strict": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true
+    },
+    "include": ["src"],     // Make sure to include the correct paths
+    "exclude": ["node_modules"]
+  }
+  

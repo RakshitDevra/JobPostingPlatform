@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "jsx": "react",  // This enables JSX for React
+    "target": "ES6",     // Set a target ECMAScript version (ES6 is common)
+    "module": "ESNext",  // Use ES modules
+    "moduleResolution": "node",  // Resolve modules in Node.js style
+    "esModuleInterop": true,     // Enable interop between CommonJS and ES modules
+    "skipLibCheck": true,        // Skip type checking of all declaration files
+    "strict": true               // Enable strict type checking options
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": ["./tsconfig.node.json","**/*.spec.ts"] }
+  ]
+}
